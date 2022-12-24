@@ -12,7 +12,12 @@ public class LinkedListDemo {
 		list.add(2);
 		list.add(3);
 		
-		System.out.println(list);
+		
+		for(Integer i : list)
+		{
+			System.out.println(i);
+
+		}
 	}
 
 }
